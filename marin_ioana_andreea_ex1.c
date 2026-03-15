@@ -4,7 +4,6 @@
 #include <stdbool.h>
 
 typedef struct Film Film;
-
 struct Film {
     int id;
     float rating;
