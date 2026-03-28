@@ -4,7 +4,7 @@
 
 struct Melodie {
     int id;
-    float durata;
+    float durata; 
     char* titlu;
     char* artist;
     int esteExplicit;   
