@@ -7,7 +7,7 @@ struct Melodie {
     float durata;
     char* titlu;
     char* artist;
-    int esteExplicit;   // explicit -> esteExplicit
+    int esteExplicit;   
 };
 typedef struct Melodie Melodie;
 
@@ -20,12 +20,12 @@ Melodie citireMelodie() {
     scanf("%f", &m.durata);
     printf("Titlu: ");
     scanf("%s", buffer);
-    m.titlu = (char*)malloc(strlen(buffer) + 1);   // cast adaugat
-    strcpy(m.titlu, buffer);                        // strcpy_s -> strcpy
+    m.titlu = (char*)malloc(strlen(buffer) + 1);   
+    strcpy(m.titlu, buffer);                        
     printf("Artist: ");
     scanf("%s", buffer);
-    m.artist = (char*)malloc(strlen(buffer) + 1);  // cast adaugat
-    strcpy(m.artist, buffer);                       // strcpy_s -> strcpy
+    m.artist = (char*)malloc(strlen(buffer) + 1);  
+    strcpy(m.artist, buffer);                       
     printf("Explicit (0/1): ");
     scanf("%d", &m.esteExplicit);
     return m;
