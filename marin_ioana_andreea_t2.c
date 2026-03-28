@@ -1,4 +1,3 @@
-/* Exemplu scurt student: clasa Televizor (stil profesor adaptat) */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
