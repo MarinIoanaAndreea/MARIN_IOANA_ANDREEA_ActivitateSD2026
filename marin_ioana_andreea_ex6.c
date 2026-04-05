@@ -13,6 +13,7 @@ struct Carte {
     char* autor;
 };
 
+
 struct Nod {
     Carte info;
     Nod* next;
